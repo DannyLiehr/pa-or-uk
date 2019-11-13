@@ -24,12 +24,10 @@ $_SESSION['answer'] = $picChoice;
     <?php
       if ($picChoice == 'pa'){
         // Pennsylvania
-        $filename= "pa";
         $imgchoice= rand(1,10);
         echo "<section><img class=\"tiny\" src=\"./images/pa/". $imgchoice.".png\"></section>";
       } else {
         // England
-        $filename="uk";
         $imgchoice= rand(1,10);
         echo "<section><img class=\"tiny\" src=\"./images/uk/".$imgchoice.".png\"></section>";
       }
